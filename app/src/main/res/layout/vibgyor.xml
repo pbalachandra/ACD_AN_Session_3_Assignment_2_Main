@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/red"
+        android:id="@+id/button_red"
+        android:layout_weight="1"
+        android:background="@color/red"
+        android:textSize="@dimen/button_text_size" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/orange"
+        android:id="@+id/button_orange"
+        android:layout_weight="1"
+        android:background="@color/orange"
+        android:textSize="@dimen/button_text_size"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/yellow"
+        android:id="@+id/button_yellow"
+        android:layout_weight="1"
+        android:background="@color/yellow"
+        android:textSize="@dimen/button_text_size"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/green"
+        android:id="@+id/button_green"
+        android:layout_weight="1"
+        android:background="@color/green"
+        android:textSize="@dimen/button_text_size"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/blue"
+        android:id="@+id/button_blue"
+        android:layout_weight="1"
+        android:background="@color/blue"
+        android:textSize="@dimen/button_text_size"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/indigo"
+        android:id="@+id/button_indigo"
+        android:layout_weight="1"
+        android:background="@color/indigo"
+        android:textSize="@dimen/button_text_size"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/violet"
+        android:id="@+id/button_violet"
+        android:layout_weight="1"
+        android:background="@color/violet"
+        android:textSize="@dimen/button_text_size"/>
+</LinearLayout>
